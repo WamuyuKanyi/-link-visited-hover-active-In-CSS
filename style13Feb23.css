@@ -1,0 +1,25 @@
+/* :link :visited :hover :active */
+
+/* to select all links */
+a:link {
+  color: aqua;
+}
+
+/* The :visited selector is used to select visited links. */
+a:visited {
+  color: red;
+}
+
+/* all the links will be green even the visited link */
+a:hover {
+  color: green;
+}
+
+/* The :active selector is used to select and style the active link.
+
+A link becomes active when you click on it.
+
+Tip: The :active selector can be used on all elements, not only links. */
+a:active {
+  color: brown;
+}
